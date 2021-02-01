@@ -9,6 +9,7 @@ const burger = (props) => {
         return [...Array(props.ingredients[ingredientKey])].map((_, i) =>{
             return <BurgerIngredient key = {ingredientKey + i} type = {ingredientKey} />
         })
+        
     });
     return (
         <div className="Burger">
